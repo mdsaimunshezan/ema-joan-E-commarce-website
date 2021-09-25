@@ -1,0 +1,27 @@
+
+.prodect {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: 10px;
+
+}
+.prodect__total {
+    background: lightgray;
+}
+.prodect__name {
+    color: orangered;
+    padding: 10px;
+}
+.prodect__price {
+    padding: 10px;
+}
+.prodect__btn {
+    padding: 10px 50px;
+    background: orangered;
+    cursor: pointer;
+    margin-top: 20px;
+    border: 1px solid white;
+    font-size: 20px;
+    color: white;
+}
